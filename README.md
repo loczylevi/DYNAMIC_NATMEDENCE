@@ -13,6 +13,7 @@ R2(config-if)# exit
 R2(config)# interface serial 0/1/1
 R2(config-if)# ip address 209.165.200.1 255.255.255.252
 R2(config-if)# ip nat outside
+exit
 ```
 __DONE__
 
@@ -46,4 +47,5 @@ R2(config)# interface serial 0/1/0
 R2(config-if)# ip nat inside
 R2(config)# interface serial 0/1/1
 R2(config-if)# ip nat outside
+exit
 ```
