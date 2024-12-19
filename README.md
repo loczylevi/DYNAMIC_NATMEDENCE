@@ -2,6 +2,8 @@
 
 ## static NAT (__nem nem a nemzeti alaptanterv...__)
 
+
+```bash
 R2(config)# ip nat inside source static 192.168.10.254 209.165.201.5
 
 R2(config)# interface serial 0/1/0
@@ -11,7 +13,7 @@ R2(config-if)# exit
 R2(config)# interface serial 0/1/1
 R2(config-if)# ip address 209.165.200.1 255.255.255.252
 R2(config-if)# ip nat outside
-
+```
 __DONE__
 
 ## check commandok:
